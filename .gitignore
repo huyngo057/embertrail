@@ -20,4 +20,8 @@ Icon?
 *.temp
 .cache/
 
+# Local agent skill installs (e.g. godot-master via npx skills) — keep out of git
+.agents/
+skills-lock.json
+
 # Godot / C# ignores will be added when the engine project is created
