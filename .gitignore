@@ -24,4 +24,18 @@ Icon?
 .agents/
 skills-lock.json
 
-# Godot / C# ignores will be added when the engine project is created
+# Godot 4
+.godot/
+.import/
+export.cfg
+export_presets.cfg
+*.translation
+
+# .NET / C#
+bin/
+obj/
+.mono/
+data_*/
+*.user
+*.userprefs
+*.DotSettings.user
